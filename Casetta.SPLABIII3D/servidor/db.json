@@ -1,0 +1,64 @@
+{
+  "anuncios": [
+    {
+      "id": 1666742862147,
+      "titulo": "Perro mimoso",
+      "descripcion": "Imperdible",
+      "animal": "Perro",
+      "precio": 45000,
+      "raza": "Corgi",
+      "fechaNacimiento": "2017-06-22",
+      "vacunas": "Sí"
+    },
+    {
+      "id": 1666742914282,
+      "titulo": "Perro de servicio",
+      "descripcion": "Para asistencia de personas con ceguera",
+      "animal": "Perro",
+      "precio": 40000,
+      "raza": "Labrador",
+      "fechaNacimiento": "2021-05-16",
+      "vacunas": "Sí"
+    },
+    {
+      "id": 1666743334954,
+      "titulo": "Gato compañero busca hogar",
+      "descripcion": "Gato de 12 años perdió a sus dueños",
+      "animal": "Gato",
+      "precio": 15000,
+      "raza": "Mestizo",
+      "fechaNacimiento": "2010-07-18",
+      "vacunas": "Sí"
+    },
+    {
+      "id": 1666743386505,
+      "titulo": "Perro abandonado",
+      "descripcion": "Encontrado al costado de la ruta busca familia",
+      "animal": "Perro",
+      "precio": 15000,
+      "raza": "Ovejero",
+      "fechaNacimiento": "2021-04-17",
+      "vacunas": "No"
+    },
+    {
+      "id": 1669142312614,
+      "titulo": "Siberiano recién nacido",
+      "descripcion": "Tiene ojos marrones",
+      "animal": "Perro",
+      "precio": 20000,
+      "raza": "Siberiano",
+      "fechaNacimiento": "2022-11-08",
+      "vacunas": "No"
+    },
+    {
+      "id": 1669160562985,
+      "titulo": "Gato bebé en venta",
+      "descripcion": "Necesita mucho cuidado",
+      "animal": "Gato",
+      "precio": 10000,
+      "raza": "Mestizo",
+      "fechaNacimiento": "2022-11-01",
+      "vacunas": "No"
+    }
+  ]
+}

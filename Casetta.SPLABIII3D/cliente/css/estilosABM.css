@@ -1,0 +1,208 @@
+body {
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:darkmagenta;
+    align-items: center;
+    padding: 0 50px;
+    font-family: monospace;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 22px;
+    color: white;
+}
+
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    object-fit: contain;
+    width: 100px;
+}
+
+.icon {
+    object-fit: contain;
+    display: inline;
+    width: 40px;
+}
+
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+}
+
+fieldset
+{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    border: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+}
+
+legend {
+    text-align: center;
+}
+
+.radio {
+    padding-top: 5px;
+    margin: 10px 0;
+}
+
+h2 {
+    width: unset;
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+table {
+    margin: 30px auto;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(205, 144, 255);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover td {
+    background-color: darkmagenta;
+    color: white;
+}
+
+tbody {
+    cursor: pointer;
+}
+
+#btnAltaModificar, #btnEliminar, #btnCancelar {
+    margin: 20px 30px;
+    font-size: 18px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    width: 150px;
+    height: 70px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: none;
+}
+
+#btnAltaModificar:hover, #btnEliminar:hover, #btnCancelar:hover {
+    background-color:darkmagenta;
+    color: white;
+    cursor: pointer;
+}
+
+#btnAltaModificar {
+    background-image: url(../imagenes/guardar.png);
+}
+
+#btnEliminar {
+    background-image: url(../imagenes/eliminar.png);
+}
+
+#btnCancelar {
+    background-image: url(../imagenes/cancelar.png);
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtros
+{
+    background-color: darkmagenta;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.filtros > label {
+    text-align: center;
+    color: white;
+}
+
+label > select, label > input
+{
+    margin-top: 10px;
+}
+
+#detalles {
+    display: flex;
+    justify-content: center;
+}
+
+#detalles > label {
+    margin: 30px 10px;
+}
